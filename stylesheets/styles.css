@@ -1,0 +1,39 @@
+body{
+    font-family: arial;    
+}
+.assignment-grid,
+.assignment-input-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 12px;
+    row-gap: 12px;
+    
+}
+.assignment-input-grid{
+    margin-bottom: 15px;
+}
+
+.assignment-input{
+    font-size: 16px;
+    padding: 10px 8px 10px 8px;
+}
+
+.add-button{
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.assignment-grid{
+    font-size: 16px;
+    align-items: center;    
+}
+.delete-button{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
